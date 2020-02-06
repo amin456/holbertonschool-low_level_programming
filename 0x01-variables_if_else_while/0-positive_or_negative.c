@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/*more headers goes there */
+/* more headers goes there */
 /**
  *main - main function
  *function to find out if a variable is positive or negative
@@ -10,6 +10,7 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
