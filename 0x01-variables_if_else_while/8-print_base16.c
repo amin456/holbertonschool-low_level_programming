@@ -1,22 +1,22 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- * main - alphabet
- * Return: (0)
+ *main - main function
+ *Return: 0
  */
 int main(void)
 {
-	char c;
-	c = 'a';
+	char c = 'a';
+	char i = '0';
+	char c2 = '\n';
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		if (c != 'q' && c != 'e')
-		{
-			putchar(c);
-		}
+		putchar(i);
 	}
-	putchar('\n');
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar (c);
+	}
+	putchar (c2);
 	return (0);
 }
