@@ -7,9 +7,8 @@
  */
 int main(void)
 {
-char c;
-char = 'a';
-char c2 = '\n';
+	char c;
+	c = 'a';
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
