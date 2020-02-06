@@ -1,19 +1,22 @@
 #include <stdio.h>
 
 /**
+
  * main - alphabet
+
  * Return: (0)
+
  */
 
 int main(void)
 
 {
 
-	char c;
+	int c;
 
-	c = '0';
+	c = 48;
 
-	for (c = '0'; c <= '9'; c++)
+	for (c = 48; c <= 57; c++)
 
 	{
 
