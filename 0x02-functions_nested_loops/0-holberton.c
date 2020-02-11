@@ -4,7 +4,7 @@
  *Description: a program that prints Holberton, followed by a new line
  *Return: 0
  */
-int main()
+int main(void)
 {
 	_putchar ('H');
 	_putchar ('o');
