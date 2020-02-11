@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
- *main - main function
+ *_isalpha - main function
  *Description:checks for alphabetic character.
+ *@c: int
  *Return: 0
  */
 int _isalpha(int c)
