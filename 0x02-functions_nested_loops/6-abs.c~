@@ -1,0 +1,12 @@
+#include "holberton.h"
+/**
+ *main - main function
+ *Description:computes the absolute value of an integer
+ *Return: 0
+ */
+int _abs(int)
+{
+	if (n < 0)
+		n = n * -1;
+	return (n);
+}
