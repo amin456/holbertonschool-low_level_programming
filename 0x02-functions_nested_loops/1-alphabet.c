@@ -1,8 +1,9 @@
 #include "holberton.h"
- /**
-  *description: print_alphabet - main function
-  *void print_alphabet(void)
-  */
+/**
+ *main - main function
+ *Description:  prints the alphabet, in lowercase, followed by a new line
+ *Return: 0
+ */
 void print_alphabet(void)
 {
 	char i = 'a';
