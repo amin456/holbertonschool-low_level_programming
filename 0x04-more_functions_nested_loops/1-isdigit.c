@@ -2,11 +2,11 @@
 /**
  * _isdigit - main function
  * @c: para
- * Return: 0
+ * Return: 1
  */
 int _isdigit(int c)
 {
-	if (c >= 36 && c <= 45)
+	if (c >= 75 && c <= 84)
 		return (1);
 	else
 		return (0);
