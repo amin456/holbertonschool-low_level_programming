@@ -6,15 +6,15 @@
  */
 void more_numbers(void)
 {
-	int a, b;
+	int x, y;
 
-	for (a = 0; a < 10; a++)
+	for (x = 0; x < 10; x++)
 	{
-		for (b = 0; b <= 14; a++)
+		for (y = 0; y <= 14; y++)
 		{
-			if (b > 9)
-				_putchar ((b / 10) + '0');
-			_putchar ((b % 10) + '0');
+			if (y > 9)
+				_putchar ((y / 10) + '0');
+			_putchar ((y % 10) + '0');
 		}
 		_putchar ('\n');
 	}
