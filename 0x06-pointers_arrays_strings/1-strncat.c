@@ -1,0 +1,20 @@
+#include "holberton.h"
+/**
+ * char *_strncat - main function
+ * @dest: destination
+ * @src: source
+ * @n: int
+ * Return: void
+ */
+char *_strncat(char *dest, char *src, int n)
+{
+	int a = 0, b;
+
+	while (dest[a] != '\0')
+		a++;
+	for (b = 0; b < n && src[b] != '\0'; b++)
+	{
+		dest[a + b] = src[b];
+	}
+	return (dest);
+}
