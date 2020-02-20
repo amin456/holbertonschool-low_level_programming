@@ -1,0 +1,23 @@
+#include "holberton.h"
+/**
+ * char *_strcat - main function
+ * @dest: destination
+ * @src: source
+ * Return: void
+ */
+char *_strcat(char *dest, char *src);
+char s1[900], s2[900];
+int i, j;
+i = 0;
+while (s1[i] != '\0')
+{
+	i++;
+}
+j = 0;
+while (s2[j] != '\0')
+{
+	s1[i] = s2[j];
+	i++;
+	j++;
+}
+s1[i] = '\0';
