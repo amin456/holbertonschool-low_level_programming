@@ -1,0 +1,28 @@
+#include "holberton.h"
+/**
+ *rot13- encode using rot13
+ *@s: pointer
+ *Return: return s
+ */
+char *rot13(char *s)
+{
+	char m[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char n[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	int v, w, x;
+
+	for (v = 0; s[v] != '\0'; v++)
+	{
+		x = 0;
+		for (w = 0; m[w] != '\0'; w++)
+		{
+			if (s[v] == m[w] && x == 0)
+			{
+				x = w;
+				s[v] = n[y];
+				x = 1;
+			}
+		}
+		x = 0;
+	}
+	return (s);
+}
