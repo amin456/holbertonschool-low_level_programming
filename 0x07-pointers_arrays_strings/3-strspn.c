@@ -1,26 +1,23 @@
 #include "holberton.h"
 /**
- * _strspn - main function
- * @s: parameter
- * @accept: parameter
- * Return: n
+ *_strspn- gets length of substring
+ *@s: pointer
+ *@accept: pointer
+ *Return: return statement
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int a, b, c = 0;
+	unsigned int a, b;
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
 		for (b = 0; accept[b] != '\0'; b++)
 		{
 			if (s[a] == accept[b])
-			{
-				c++;
 				break;
-			}
 		}
-		if (accept[b] == '\0')
+		if (s[a] != accept[b])
 			break;
 	}
-	return (n);
+	return (a);
 }
