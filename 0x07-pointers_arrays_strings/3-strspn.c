@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  *_strspn- gets length of substring
- *@s: pointer
+ *@s: buff
  *@accept: pointer
  *Return: return statement
  */
