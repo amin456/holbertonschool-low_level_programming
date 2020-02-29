@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * prime_number - rec function
- * @i: parameter
+ * @x: parameter
  * @n: parameter
  * Return: 0
  */
