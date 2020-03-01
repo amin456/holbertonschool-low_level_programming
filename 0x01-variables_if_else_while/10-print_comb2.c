@@ -5,18 +5,18 @@
  */
 int main(void)
 {
-	int c = '0';
-	int co = 44;
-	int s = 32;
+	int x = '0';
+	int y = 44;
+	int z = 32;
 
-	for (c = 0; c < 100; c++)
+	for (x = 0; x < 100; x++)
 	{
-		putchar((c / 10) + '0');
-		putchar((c % 10) + '0');
-		if (c < 99)
+		putchar((x / 10) + '0');
+		putchar((x % 10) + '0');
+		if (x < 99)
 		{
-			putchar(co);
-			putchar(s);
+			putchar(y);
+			putchar(z);
 		}
 	}
 	putchar('\n');
