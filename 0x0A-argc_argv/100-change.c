@@ -5,12 +5,13 @@
 /**
  *main- find the minimum number of coins to make a change
  *@argc: number of arguments
- *@argv: pointer 
+ *@argv: pointer
  *Return: return
  */
 int main(int argc, char *argv[])
 {
 	int cents, c25 = 0, c10 = 0, c5 = 0, c2 = 0, c1 = 0;
+
 	if (argc != 2)
 	{
 		printf("Error\n");
