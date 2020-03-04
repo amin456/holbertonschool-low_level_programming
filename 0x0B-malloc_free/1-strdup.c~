@@ -3,21 +3,22 @@
 /**
  * *_strdup - main function
  * @str: para
- * Return: s
+ * Return: m
  */
 char *_strdup(char *str)
 {
-	char *s;
+	char *m;
 	unsigned int x, y;
 
 	if (str == NULL)
 		return (NULL);
 	for (x = 0; str[x] != '\0'; x++)
-		s = malloc((x + 1) * sizeof(char));
-	if (s == NULL)
+		
+		m = malloc(x + 1);
+	if (m == NULL)
 		return (NULL);
 	for (y = 0; y <= x; y++)
-		s[y] = str[y];
-	s[y] = '\0';
-	return (s);
+		m[y] = str[y];
+	m[y] = '\0';
+	return (m);
 }
