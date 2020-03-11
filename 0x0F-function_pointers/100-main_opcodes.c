@@ -2,14 +2,12 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main(:)? (- argc argv)?
- *
- * @argc: number of arguments
- * @argv: arguments
- *
- * Return: r
+ * main - argc argv
+ * @ac: number of arguments
+ * @av: arguments
+ * Return: int
  */
-int main(int ac, char *av[])
+int main(int argc, char *argv[])
 {
 	int *a;
 
@@ -30,6 +28,6 @@ int main(int ac, char *av[])
 		exit(2);
 	}
 	a = (int *)&main;
-	printf("%x\n", a[atoi(av[1])]);
+	printf("%x\n", a[atoi(argv[1])]);
 	return (0);
 }
